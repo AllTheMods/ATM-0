@@ -53,8 +53,6 @@ key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:47
-key_Toggle Raw Input:0
-key_Rescan Key:0
 key_keys.servertabinfo.show:0
 key_keys.servertabinfo.show2:157
 key_bbw.key.mode:50
@@ -96,7 +94,7 @@ key_railcraft.keybind.loco.slower:51
 key_railcraft.keybind.loco.mode:50
 key_railcraft.keybind.loco.whistle:49
 key_key.control:0
-key_key.journeymap.map_toggle:50
+key_key.journeymap.map_toggle:36
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:27
