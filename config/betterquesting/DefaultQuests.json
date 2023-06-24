@@ -137,7 +137,7 @@
               "id:8": "TConstruct:ToolStationBlock",
               "Count:3": 1,
               "Damage:2": 10,
-              "OreDict:8": ""
+              "OreDict:8": "blockStencilTable"
             },
             "2:10": {
               "id:8": "TConstruct:ToolStationBlock",
@@ -297,37 +297,6 @@
       "rewards:9": {}
     },
     "5:10": {
-      "questID:3": 5,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
-          "isMain:1": 0,
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "repeatTime:3": -1,
-          "globalShare:1": 0,
-          "questLogic:8": "AND",
-          "repeat_relative:1": 1,
-          "name:8": "New Quest",
-          "lockedProgress:1": 0,
-          "autoClaim:1": 0,
-          "isSilent:1": 0,
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "6:10": {
       "questID:3": 6,
       "preRequisites:11": [
         1,
@@ -391,7 +360,7 @@
       },
       "rewards:9": {}
     },
-    "7:10": {
+    "6:10": {
       "questID:3": 7,
       "preRequisites:11": [
         4
@@ -442,7 +411,7 @@
       },
       "rewards:9": {}
     },
-    "8:10": {
+    "7:10": {
       "questID:3": 8,
       "preRequisites:11": [
         7
@@ -493,7 +462,7 @@
       },
       "rewards:9": {}
     },
-    "9:10": {
+    "8:10": {
       "questID:3": 9,
       "preRequisites:11": [
         8
@@ -550,7 +519,7 @@
       },
       "rewards:9": {}
     },
-    "10:10": {
+    "9:10": {
       "questID:3": 10,
       "preRequisites:11": [
         3
@@ -631,7 +600,7 @@
       },
       "rewards:9": {}
     },
-    "11:10": {
+    "10:10": {
       "questID:3": 11,
       "preRequisites:11": [
         8
@@ -682,7 +651,7 @@
       },
       "rewards:9": {}
     },
-    "12:10": {
+    "11:10": {
       "questID:3": 12,
       "preRequisites:11": [
         11,
@@ -734,7 +703,7 @@
       },
       "rewards:9": {}
     },
-    "13:10": {
+    "12:10": {
       "questID:3": 13,
       "preRequisites:11": [
         12
@@ -785,7 +754,7 @@
       },
       "rewards:9": {}
     },
-    "14:10": {
+    "13:10": {
       "questID:3": 14,
       "preRequisites:11": [
         13
