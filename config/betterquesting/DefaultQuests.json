@@ -1267,6 +1267,1596 @@
         }
       },
       "rewards:9": {}
+    },
+    "23:10": {
+      "questID:3": 23,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 21,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Intro to ChromatiCraft",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "ChromatiCraft is a magic mod by ReikaKalseki, with a power system based on sixteen colors of light (lumens).\n\nIf you\u0027ve been exploring, you may have already seen (or felt) some crystal pylons.\n\nLater on, you\u0027ll be able to prevent them from damaging you, but for now you might want to keep a safe distance (most of the time).\n\nThis mod has a heavy focus on discovery and exploration, so this questline will just focus on explanations of mechanics.\n\nBe certain to read the info in the lexicon, not just the quest book!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "24:10": {
+      "questID:3": 24,
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_help",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "The Chromic Lexicon",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "When you look at your lexicon, you\u0027ll see two tabs on the left, and three tabs on the right.\n\nThe first tab on the left is the info page, where you can find the descriptions for each fragment you unlock.\n\nThe second tab on the left is the recipe page, with a corresponding recipe for any craftable fragment.\n\nThe first tab on the right is the progression tab, where you can find clues to progress through the mod.\n\nThe second tab on the right is the Recovery tab. If you lose your book, you can recover fragments you\u0027ve learned at the cost of paper and ink.\n\nThe last tab on the right is the notes tab, a space for you to write things down."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "25:10": {
+      "questID:3": 25,
+      "preRequisites:11": [
+        24
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Knowledge Fragments",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You\u0027ll find these in various dungeons around the world, both ChromatiCraft dungeons and regular vanilla dungeons.\n\nSneak + right-click on one in your hotbar to open the decoder, and then place the fragment in the top slot.\n\nAfter decoding, you can sneak + right-click on your lexicon to open the inventory, and store the fragment.\n\nYou can also store blank fragments in the lexicon by holding them over the lexicon in your inventory and left-clicking.\n\nRight-click on the lexicon in your inventory to take them back out."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "26:10": {
+      "questID:3": 26,
+      "preRequisites:11": [
+        25
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_tool",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Elemental Manipulator",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Your first crystal tool, you\u0027ll be using this a lot.\n\nThis marks the end of the questline (for now), go forth and explore!\n\nIf you think you\u0027re stuck somewhere, try to find more fragments.\n\nIf you\u0027ve decoded all the fragments you can, try crafting things or check the progression tab for any new clues you might be able to unlock."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_tool",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "27:10": {
+      "questID:3": 27,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "The Wither",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Well this is a pretty obvious milestone, but you\u0027ll need a few of these eventually."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 300.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "2:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "3:10": {
+                "Base:6": 0.6000000238418579,
+                "Name:8": "generic.movementSpeed"
+              },
+              "4:10": {
+                "Base:6": 40.0,
+                "Name:8": "generic.followRange"
+              },
+              "5:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Invul:3": 0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "WitherBoss",
+            "HealF:5": 300.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -4983286707306535159,
+            "Health:2": 300,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 0.6439795,
+              "1:5": 0.0
+            },
+            "CreatureInfusion:10": {
+              "PlayerInfusions:11": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts:10": {
+                "Aspects:9": {}
+              },
+              "tumorWarpTemp:3": 0,
+              "Infusions:11": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb:1": 0,
+              "toggleInvisible:1": 0,
+              "tumorWarp:3": 0,
+              "sitting:1": 0,
+              "tumorWarpPermanent:3": 0
+            },
+            "UUIDMost:4": 3784699812633856098,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "CustomName:8": "",
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": 0,
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "AttackTime:2": 0,
+            "CustomNameVisible:1": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "WitherBoss",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {}
+    },
+    "28:10": {
+      "questID:3": 28,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:dragon_egg",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "The Ender Dragon",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Thanks to Et Futurum, you can respawn the dragon just like modern versions."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 200.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.10000000149011612,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              }
+            },
+            "Invulnerable:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "EnderDragon",
+            "HealF:5": 200.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -7553908738188866364,
+            "Health:2": 200,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 2.0069864,
+              "1:5": 0.0
+            },
+            "CreatureInfusion:10": {
+              "PlayerInfusions:11": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts:10": {
+                "Aspects:9": {}
+              },
+              "tumorWarpTemp:3": 0,
+              "Infusions:11": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb:1": 0,
+              "toggleInvisible:1": 0,
+              "tumorWarp:3": 0,
+              "sitting:1": 0,
+              "tumorWarpPermanent:3": 0
+            },
+            "UUIDMost:4": -5162701884983721885,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "CustomName:8": "",
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": 0,
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "AttackTime:2": 0,
+            "CustomNameVisible:1": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "EnderDragon",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {}
+    },
+    "29:10": {
+      "questID:3": 29,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_gearcraft",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "RotaryCraft",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "A brief introduction to some of the milestones in RotaryCraft. If these look interesting, check out the quest chapter for more info!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "30:10": {
+      "questID:3": 33,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Bedrock Breaker",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Used to get bedrock dust for crafting the endgame machines and gear."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "31:10": {
+      "questID:3": 35,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_adjacency",
+            "Count:3": 1,
+            "tag:10": {
+              "tier:3": 7
+            },
+            "Damage:2": 12,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Tile Accelerator",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "There might not be a convenient way to store time in the pack, but this should be a fine replacement."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_adjacency",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 7
+              },
+              "Damage:2": 12,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "32:10": {
+      "questID:3": 36,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Casting Table",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "From a single block to a complex multiblock structure, this will accompany you through the whole mod."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "33:10": {
+      "questID:3": 37,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Chromatic Enchanter",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "For when the enchanting table just doesn\u0027t cut it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "34:10": {
+      "questID:3": 39,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_help",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "ChromatiCraft",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "A (sort of) preview of a few of the things you can do. Since ChromatiCraft is a discovery based mod, you\u0027ll need to unlock the progression for these items before you can see the recipes."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "35:10": {
+      "questID:3": 40,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 48,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Redstone Flux Radiator",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Those cables can get in the way sometimes. What if you didn\u0027t need them?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 48,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "36:10": {
+      "questID:3": 41,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_modinteract",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Wand Caps",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Sure, Thaumcraft is cool, but what if it was BETTER!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_modinteract",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "37:10": {
+      "questID:3": 42,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_rift",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "World Rift",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Tesseracts aren\u0027t very good at rotating, but maybe this can help?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_rift",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "38:10": {
+      "questID:3": 43,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_pendant",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Crystal Pendants",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "If you\u0027re tired of chugging potions, give these a try."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_pendant",
+              "Count:3": 1,
+              "Damage:2": 15,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "39:10": {
+      "questID:3": 44,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Spawner Reprogrammer",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "This spawner would be a lot more useful if it was spawning that one mob you needed..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "40:10": {
+      "questID:3": 47,
+      "preRequisites:11": [
+        33
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_bedhelm",
+            "Count:3": 1,
+            "tag:10": {
+              "ench:9": {
+                "0:10": {
+                  "lvl:2": 4,
+                  "id:2": 4
+                },
+                "1:10": {
+                  "lvl:2": 3,
+                  "id:2": 5
+                }
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Bedrock Armor",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Unbreakable armor with great protection and upgrades."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_bedhelm",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 4,
+                    "id:2": 4
+                  },
+                  "1:10": {
+                    "lvl:2": 3,
+                    "id:2": 5
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_bedchest",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 4,
+                    "id:2": 3
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_bedlegs",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 4,
+                    "id:2": 1
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_bedboots",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 4,
+                    "id:2": 2
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "41:10": {
+      "questID:3": 48,
+      "preRequisites:11": [
+        33
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_bedpick",
+            "Count:3": 1,
+            "tag:10": {
+              "ench:9": {
+                "0:10": {
+                  "lvl:2": 1,
+                  "id:2": 33
+                },
+                "1:10": {
+                  "lvl:2": 5,
+                  "id:2": 35
+                }
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Bedrock Tools",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Unbreakable tools that come with great enchants."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_bedsword",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 5,
+                    "id:2": 16
+                  },
+                  "1:10": {
+                    "lvl:2": 5,
+                    "id:2": 21
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_bedpick",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 1,
+                    "id:2": 33
+                  },
+                  "1:10": {
+                    "lvl:2": 5,
+                    "id:2": 35
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_bedsickle",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 5,
+                    "id:2": 35
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "42:10": {
+      "questID:3": 49,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 23,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Fan",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Harvesting and replanting crops or moving mobs, this fan can do it all."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 23,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "43:10": {
+      "questID:3": 50,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 32,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Woodcutter",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Easy tree farms, you can even enchant them."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 32,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "44:10": {
+      "questID:3": 51,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_engine",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Gas Turbine",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Ever wanted your very own jet turbine? This is your chance! But don\u0027t stand too close..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_engine",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "45:10": {
+      "questID:3": 52,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 20,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Extractor",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "If you thought Mekanism\u0027s ore processing was good, take a look at this! 5x ore processing is just the start!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 20,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "46:10": {
+      "questID:3": 53,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 21,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Pulse Jet Turbine",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Got a lot of armor you need to recycle? Or maybe you just want to make some tungsten carbide?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 21,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "47:10": {
+      "questID:3": 54,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 33,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Spawner Controller",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Those other spawners not making mobs fast enough? If you\u0027ve got the power this just might be your solution."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 33,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "48:10": {
+      "questID:3": 55,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 14,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Boring Machine",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "No need to move this quarry, it just keeps going!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 14,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -1464,6 +3054,230 @@
             "id:8": "RotaryCraft:rotarycraft_item_gearcraft",
             "Count:3": 1,
             "Damage:2": 65,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": ""
+        }
+      },
+      "order:3": 2
+    },
+    "2:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": -96,
+          "id:3": 23,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -96,
+          "id:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -96,
+          "id:3": 25,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -96,
+          "id:3": 26,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "ChromatiCraft",
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_help",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": ""
+        }
+      },
+      "order:3": 3
+    },
+    "3:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": -144,
+          "id:3": 27,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -144,
+          "id:3": 28,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -264,
+          "y:3": -228,
+          "id:3": 29,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -228,
+          "y:3": -264,
+          "id:3": 33,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -264,
+          "id:3": 35,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": -264,
+          "id:3": 36,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": -264,
+          "id:3": 37,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -228,
+          "id:3": 39,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": -228,
+          "id:3": 40,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": -192,
+          "id:3": 41,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -192,
+          "id:3": 42,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": -228,
+          "id:3": 43,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": -192,
+          "id:3": 44,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -216,
+          "y:3": -300,
+          "id:3": 47,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -240,
+          "y:3": -300,
+          "id:3": 48,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -264,
+          "y:3": -264,
+          "id:3": 49,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -300,
+          "y:3": -264,
+          "id:3": 50,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -300,
+          "y:3": -228,
+          "id:3": 51,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -300,
+          "y:3": -192,
+          "id:3": 52,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": -264,
+          "y:3": -192,
+          "id:3": 53,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": -228,
+          "y:3": -192,
+          "id:3": 54,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": -228,
+          "y:3": -228,
+          "id:3": 55,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Milestones",
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "bg_image:8": "",
