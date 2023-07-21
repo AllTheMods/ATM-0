@@ -1,0 +1,35 @@
+{
+  "BiblioCraft":[
+     {"keep":["Biblio",["Paneler","Typewriter","Clock","*Painting","SwordPedestal","FancySign",
+      "Workbench","theca","PotionShelf","Shelf","Rack","Case","Label","Desk","Table",
+      "Lantern","IronLantern","Lamp","IronLamp","MapFrames","Seats"],[0]]},
+     {"keep":[["item.seat*"],[0]]},
+     {"hide":[["BiblioClipboard","BookcaseFilled"],[]]},
+     {"hide":["item.",["RecipeBook","AtlasPlate","EnchantedPlate","DeathCompass","PrintPlate","BiblioCreativeLock"],[]]}
+   ],
+  "BiblioWoodsEBXL": [
+    {"keep":  ["BiblioWood", [
+      "Bookcase", "potshelf", "shelf", "rack", "case",
+      "label", "desk", "table", "Seat", "MapFrame",
+      "FancySign", "FancyWorkbench", "Clock", "PaintingT*"
+    ], [0]]},
+    {"keep": ["seatBack", [1, 2, 3, 4, 5], [0]]}
+  ],
+  "BiblioWoodsForestry": [
+    {"keep":  ["BiblioWoodFst", [
+      "Bookcase*", "potshelf*", "shelf*", "rack*", "case*", "label*", "desk*", "table*"
+    ], [0]]},
+    {"keep":  ["BiblioWood", [
+      "Seat*", "MapFrame*", "FancySign*", "FancyWorkbench*", "Clock*", "PaintingT*"
+    ], [0]]},
+    {"keep": ["seatBack", [1, 2, 3, 4, 5], [0]]}
+  ],
+  "BiblioWoodsNatura": [
+    {"keep":  ["BiblioWood", [
+      "Bookcase", "potshelf", "shelf", "rack", "case0",
+      "label", "desk", "table", "Seat", "MapFrame",
+      "FancySign", "FancyWorkbench", "Clock", "PaintingT*"
+    ], [0]]},
+    {"keep": ["seatBack", [1, 2, 3, 4, 5], [0]]}
+  ]
+}
