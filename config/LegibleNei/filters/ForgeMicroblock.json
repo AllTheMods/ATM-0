@@ -1,5 +1,5 @@
 {
   "ForgeMicroblock": [
-    {"keep-one": [["microblock"],[]]}
+    {"hide": [["microblock"],[]]}
 	]
 }
