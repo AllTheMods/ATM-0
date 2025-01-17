@@ -26,13 +26,13 @@
 			"texture" : "mainmenu:singleplayer.png",
 			"textOffsetY":-2,
 			"textOffsetX":5,
-            "action" : 
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
             }
         },
-        
+
         "multiplayer":
         {
             "text" : "menu.multiplayer",
@@ -46,13 +46,13 @@
             "texture" : "mainmenu:multiplayer.png",
             "textOffsetY":-2,
 			"textOffsetX":7,
-            "action" : 
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
             }
         },
-        
+
         "Make a Server":
         {
             "text" : "Make a Server",
@@ -66,7 +66,7 @@
 			"texture" : "mainmenu:akliz.png",
 			"textOffsetY":-2,
 			"textOffsetX":8,
-            "action" : 
+            "action" :
             {
                 "type" : "openLink",
                 "link" : "https://www.akliz.net/allthemods"
@@ -85,10 +85,10 @@
 			"texture" : "mainmenu:discord.png",
 			"textOffsetY":-2,
 			"textOffsetX":5,
-            "action" : 
+            "action" :
             {
                 "type" : "openLink",
-                "link" : "https://discord.gg/FdFDVWb"
+                "link" : "https://discord.gg/allthemods"
             }
         },
 		"Reddit":
@@ -104,14 +104,14 @@
 			"texture" : "mainmenu:reddit.png",
 			"textOffsetY":-2,
 			"textOffsetX":8,
-            "action" :  
+            "action" :
             {
                 "type" : "openLink",
                 "link" : "http://www.reddit.com/r/allthemods"
             }
         },
 
-            
+
         "options":
         {
             "text" : "Options",
@@ -125,13 +125,13 @@
 			"texture" : "mainmenu:settings.png",
 			"textOffsetY":-2,
 			"textOffsetX":8,
-            "action" : 
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "options"
             }
         },
-        
+
         "quit":
         {
             "text" : "Quit",
@@ -145,12 +145,12 @@
 			"texture" : "mainmenu:quit.png",
 			"textOffsetY":-2,
 			"textOffsetX":8,
-            "action" :  
+            "action" :
             {
                 "type" : "quit"
             }
         },
-        
+
         "language":
         {
             "text" : "Languages",
@@ -164,13 +164,13 @@
 			"texture" : "mainmenu:lang.png",
 			"textOffsetY":-2,
 			"textOffsetX":8,
-            "action" : 
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "languages"
             }
         },
-         
+
         "refresh":
         {
             "text" : "",
@@ -179,7 +179,7 @@
             "width" : 0,
             "height" : 0,
             "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
+            "action" :
             {
                 "type" : "refresh"
             }
@@ -195,12 +195,12 @@
             "color" : -1,
             "alignment" : "bottom_right"
         },
-        
+
         "fml":
         {
             "text" : "",
             "posX" : 2,
-            "posY" : -50,
+            "posY" : -55,
             "color" : -1,
             "alignment" : "bottom_left"
         }
